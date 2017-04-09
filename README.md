@@ -7,14 +7,15 @@
   sudo apt-get install libboost-all-dev
   ```
   
-2. Use additional repo for external-sort
+2. Use additional repo for external-sort (git clone in folderul SASC)
   https://github.com/alveko/external_sort
   
-3. Example to generate random data (1GB) and sort with external-sort:
+3. prepare external sort
 ```
-  ./external_sort --act all --msize 100 --munit M --log 6 --tmpdir ./tmp --gen.ofile my_generated --gen.fsize 1024 --gen.blocks 2
+  cd external_sort/examples
+  make
 ```
-4. Sort the actual data:
+4. Sort the actual data (fisierul trebuie sa se numeasca total.out si sa fie in folderul SASC, comanda rulata din folderul examples):
 ```
  mkdir tmp && ./external_sort --act srt --msize 512 --munit M --log 6 --tmpdir ./tmp --srt.ifile ../../total.out --spl.blocks 2 
 ```
