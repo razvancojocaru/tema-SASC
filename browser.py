@@ -1,5 +1,6 @@
 from Crypto.Cipher import DES3
 from Crypto import Random
+import sys
 
 cookie = "ABCDEFGH"
 
@@ -60,13 +61,11 @@ def generate_request_ciphertext(REQUEST, messages_number, f):
         ciphertext = encrypt_request(REQUEST)
         f.write(ciphertext)
 
-#ciphertext = encrypt_request(REQUEST)
-#message = decrypt_request(ciphertext)
-
+# IMPORTANT: se vor rula 4 procese separate: python browser.py file_1.out ----- etc ---- python browser.py file_4.out
 if __name__ == "__main__":
-    f = open('ciphertext_blocks.out', 'wb')
+    f = open(sys.argv[1], 'wb')
 
-    n = 247243184
+    n = 247243184 / 4
     generate_request_ciphertext(data, n, f)
 
     f.close()
