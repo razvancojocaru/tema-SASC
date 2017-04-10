@@ -99,7 +99,7 @@ De data aceasta, clientul va randomiza de fiecare data ordinea headerele HTTP in
 
 Scriptul se ruleaza la fel ca cel de la pasul anterior.
 
-## Misiunea voastra
+## Your mission, should you choose to accept it
 
 1. Folositi scriptul browser_updated.py pentru a genera o cantitate necesara de ciphertext (cat doriti voi).
 
