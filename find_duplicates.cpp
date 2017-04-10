@@ -34,7 +34,7 @@ int main(int argc, const char *argv[])
    in.close();
    cout << "Nr collisions = " << collisions.size() << endl;
 
-   ifstream in2(argv[1], ios::binary);
+   ifstream in2(argv[2], ios::binary);
    unsigned long long index = 0;
    while (in2) {
       unsigned long long l;
