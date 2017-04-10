@@ -101,6 +101,6 @@ Scriptul se ruleaza la fel ca cel de la pasul anterior.
 
 ## Misiunea voastra
 
-1. Folositi scriptul browser_updated.py pentru a generate o cantitate necesara de ciphertext (cat doriti voi).
+1. Folositi scriptul browser_updated.py pentru a genera o cantitate necesara de ciphertext (cat doriti voi).
 
 2. Incercati sa recuperati COOKIE folosind doar acest ciphetext. NU folositi variabila 'cookie' setata in fisier. NU folositi cheia secreta de criptare.
