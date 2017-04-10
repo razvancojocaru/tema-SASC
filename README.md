@@ -95,7 +95,7 @@ found secret cookie: ABCDEFGH
 
 In fisierul browser_updated.py se afla scriptul care genereaza ciphertext.
 
-De data aceasta, clientul va randomiza de fiecare data headerele HTTP inainte de a cripta.
+De data aceasta, clientul va randomiza de fiecare data ordinea headerele HTTP inainte de a cripta.
 
 Scriptul se ruleaza la fel ca cel de la pasul anterior.
 
