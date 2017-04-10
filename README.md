@@ -106,3 +106,5 @@ Scriptul se ruleaza la fel ca cel de la pasul anterior.
 2. Incercati sa recuperati COOKIE folosind doar acest ciphetext. NU folositi variabila 'cookie' setata in fisier. NU folositi cheia secreta de criptare.
 
 3. In afara de COOKIE, continutul requestului HTTP se presupune cunoscut. In request, blocul de COOKIE este duplicat pentru a creste sansa de a avea coliziuni folositoare, e de ajuns sa recuperati doar cele 8 caractere.
+
+4. Folositi scriptul recover_plaintext.py doar ca punct de plecare. Acolo e folosit faput ca headerele se afla pe pozitii fixe.
