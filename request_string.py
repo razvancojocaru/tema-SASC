@@ -1,3 +1,5 @@
+# this is a file used for testing purposes only
+
 cookie = "ABCDEFGH"
 
 
