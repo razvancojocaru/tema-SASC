@@ -104,3 +104,5 @@ Scriptul se ruleaza la fel ca cel de la pasul anterior.
 1. Folositi scriptul browser_updated.py pentru a genera o cantitate necesara de ciphertext (cat doriti voi).
 
 2. Incercati sa recuperati COOKIE folosind doar acest ciphetext. NU folositi variabila 'cookie' setata in fisier. NU folositi cheia secreta de criptare.
+
+3. In afara de COOKIE, continutul requestului HTTP se presupune cunoscut. In request, blocul de COOKIE este duplicat pentru a creste sansa de a avea coliziuni folositoare, e de ajuns sa recuperati doar cele 8 caractere.
