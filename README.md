@@ -80,7 +80,7 @@ Collision value: 13709301323247256842 locations: 122347853 - 893212237
 
 Codul se afla in fisierul recover_plaintext.py
 
-Coliziunile gasite in sectiunea anterioara trebuie puse in fisier, variabila collisions
+Locatiile coliziunilor gasite in sectiunea anterioara trebuie puse in fisier, variabila collisions
 
 Example output:
 
