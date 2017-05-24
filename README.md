@@ -97,6 +97,8 @@ In fisierul browser_updated.py se afla scriptul care genereaza ciphertext.
 
 De data aceasta, clientul va randomiza de fiecare data ordinea headerele HTTP inainte de a cripta.
 
+(Solutia completa implica si inserarea de headere dummy si modificarea layout-ului astfel incat cookie-ul sa fie spart pe mai multe blocuri, complexitatea crescand exponential pentru un brute-force. Din motive de spatiu si timp de procesare nu am introdus headere dummy in demo)
+
 Scriptul se ruleaza la fel ca cel de la pasul anterior.
 
 ## Your mission, should you choose to accept it
